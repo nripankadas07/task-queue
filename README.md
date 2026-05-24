@@ -1,7 +1,5 @@
 # task-queue
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Tests](https://img.shields.io/badge/tests-passing-brightgreen.svg)]()
 
 In-memory priority task queue for Node.js with bounded concurrency, timeouts, pause/resume, cancellation, and event hooks. Zero dependencies.
 
@@ -20,7 +18,7 @@ In-memory priority task queue for Node.js with bounded concurrency, timeouts, pa
 ## Installation
 
 ```bash
-npm install task-queue
+npm install && npm run build
 ```
 
 ## Quick Start
