@@ -7,9 +7,17 @@
   "scripts": {
     "build": "tsc",
     "test": "jest --verbose",
-    "lint": "tsc --noEmit"
+    "lint": "tsc --noEmit",
+    "typecheck": "tsc --noEmit"
   },
-  "keywords": ["task", "queue", "priority", "concurrency", "async", "job"],
+  "keywords": [
+    "task",
+    "queue",
+    "priority",
+    "concurrency",
+    "async",
+    "job"
+  ],
   "author": "Nripanka Das",
   "license": "MIT",
   "devDependencies": {
